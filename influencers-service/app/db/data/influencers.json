@@ -1,0 +1,268 @@
+[
+  {
+    "name": "Alice Nutrition",
+    "handle": "@alice_nutrition",
+    "followers_count": 35000,
+    "description": "Nutritionist promoting healthy eating habits.",
+    "category": "Nutrition"
+  },
+  {
+    "name": "Mark Fitness Pro",
+    "handle": "@mark_fitness",
+    "followers_count": 800000,
+    "description": "Fitness coach with a focus on strength training.",
+    "category": "Fitness"
+  },
+  {
+    "name": "Techie Sam",
+    "handle": "@techie_sam",
+    "followers_count": 20000,
+    "description": "Tech reviews and coding tutorials.",
+    "category": "Technology"
+  },
+  {
+    "name": "Eco Jane",
+    "handle": "@eco_jane",
+    "followers_count": 45000,
+    "description": "Advocating for sustainable living.",
+    "category": "Sustainability"
+  },
+  {
+    "name": "Doctor Health",
+    "handle": "@doctor_health",
+    "followers_count": 1200000,
+    "description": "Providing medical insights and advice.",
+    "category": "Medicine"
+  },
+  {
+    "name": "Dr. Emily Carter",
+    "handle": "@DrCarterHealth",
+    "followers_count": 325000,
+    "description": "Healthcare advocate and public health specialist.",
+    "category": "Health"
+  },
+  {
+    "name": "Chef Anna Green",
+    "handle": "@ChefAnnaCooks",
+    "followers_count": 410000,
+    "description": "Creating magic in the kitchen. Follow for recipes and tips!",
+    "category": "Cooking"
+  },
+  {
+    "name": "Marcus Tech",
+    "handle": "@TechWithMarcus",
+    "followers_count": 540000,
+    "description": "Exploring the world of gadgets and AI. Innovator and reviewer.",
+    "category": "Technology"
+  },
+  {
+    "name": "Nature Nomad",
+    "handle": "@NatureNomad",
+    "followers_count": 298000,
+    "description": "Wanderer documenting the beauty of the wild.",
+    "category": "Travel"
+  },
+  {
+    "name": "Fitness Guru Max",
+    "handle": "@FitMax2023",
+    "followers_count": 620000,
+    "description": "Achieve your fitness goals. Training tips and motivation.",
+    "category": "Fitness"
+  },
+  {
+    "name": "Lisa Bookworm",
+    "handle": "@LisaReads",
+    "followers_count": 192000,
+    "description": "Lover of books and literature. Sharing reviews and stories.",
+    "category": "Literature"
+  },
+  {
+    "name": "Green Planet",
+    "handle": "@GoGreenToday",
+    "followers_count": 780000,
+    "description": "Advocating for a sustainable future. Join the movement!",
+    "category": "Environment"
+  },
+  {
+    "name": "Dr. Alan Moore",
+    "handle": "@ScienceWithAlan",
+    "followers_count": 410000,
+    "description": "Explaining the mysteries of the universe.",
+    "category": "Science"
+  },
+  {
+    "name": "Daily Wellness",
+    "handle": "@DailyWellnessTips",
+    "followers_count": 470000,
+    "description": "Tips for mental and physical health.",
+    "category": "Wellness"
+  },
+  {
+    "name": "Emily's Closet",
+    "handle": "@EmilyFashion",
+    "followers_count": 520000,
+    "description": "Fashion trends and personal styling tips.",
+    "category": "Fashion"
+  },
+  {
+    "name": "History Buff John",
+    "handle": "@HistoryWithJohn",
+    "followers_count": 285000,
+    "description": "Uncovering fascinating tales from history.",
+    "category": "History"
+  },
+  {
+    "name": "Urban Explorer",
+    "handle": "@UrbanWonders",
+    "followers_count": 390000,
+    "description": "Exploring urban landscapes and hidden gems.",
+    "category": "Travel"
+  },
+  {
+    "name": "Coding Mastery",
+    "handle": "@CodeWithMastery",
+    "followers_count": 460000,
+    "description": "Learn coding the easy way. Tutorials and projects.",
+    "category": "Technology"
+  },
+  {
+    "name": "Yoga with Sarah",
+    "handle": "@YogaWithSarah",
+    "followers_count": 530000,
+    "description": "Yoga for mind and body wellness.",
+    "category": "Fitness"
+  },
+  {
+    "name": "Chef Paolo",
+    "handle": "@PaoloCooks",
+    "followers_count": 610000,
+    "description": "Italian cuisine with love. Recipes and secrets.",
+    "category": "Cooking"
+  },
+  {
+    "name": "Dr. Jane Foster",
+    "handle": "@DrJaneScience",
+    "followers_count": 420000,
+    "description": "Bringing science closer to everyone.",
+    "category": "Science"
+  },
+  {
+    "name": "Eco Enthusiast",
+    "handle": "@EcoLife2023",
+    "followers_count": 500000,
+    "description": "Small changes for a big impact on the planet.",
+    "category": "Environment"
+  },
+  {
+    "name": "Music Vibes",
+    "handle": "@MusicVibesDaily",
+    "followers_count": 480000,
+    "description": "Daily dose of music and vibes.",
+    "category": "Music"
+  },
+  {
+    "name": "Adventure Addict",
+    "handle": "@AddictedToAdventure",
+    "followers_count": 305000,
+    "description": "Living life one adventure at a time.",
+    "category": "Travel"
+  },
+  {
+    "name": "Tech Insider",
+    "handle": "@TechInsider2023",
+    "followers_count": 650000,
+    "description": "Breaking news in the tech world.",
+    "category": "Technology"
+  },
+  {
+    "name": "Health Tips Daily",
+    "handle": "@DailyHealthTips",
+    "followers_count": 340000,
+    "description": "Practical advice for everyday health.",
+    "category": "Health"
+  },
+  {
+    "name": "Photo Wanderer",
+    "handle": "@WandererPhotos",
+    "followers_count": 400000,
+    "description": "Capturing the world through my lens.",
+    "category": "Photography"
+  },
+  {
+    "name": "Gardener's Paradise",
+    "handle": "@GardenerParadise",
+    "followers_count": 240000,
+    "description": "Creating beautiful gardens and sharing tips.",
+    "category": "Gardening"
+  },
+  {
+    "name": "Movie Critic Alice",
+    "handle": "@AliceMovies",
+    "followers_count": 290000,
+    "description": "Movie reviews and cinematic discussions.",
+    "category": "Entertainment"
+  },
+  {
+    "name": "Crypto Wiz",
+    "handle": "@CryptoWiz",
+    "followers_count": 610000,
+    "description": "Latest updates on cryptocurrency and blockchain.",
+    "category": "Finance"
+  },
+  {
+    "name": "AI Innovator",
+    "handle": "@AIInnovations",
+    "followers_count": 750000,
+    "description": "Exploring the future of AI technology.",
+    "category": "Technology"
+  },
+  {
+    "name": "Mindful Living",
+    "handle": "@Mindful2023",
+    "followers_count": 430000,
+    "description": "Tips for a balanced and mindful life.",
+    "category": "Wellness"
+  },
+  {
+    "name": "Fitness Journey",
+    "handle": "@FitnessJourney",
+    "followers_count": 380000,
+    "description": "Sharing my path to fitness and health.",
+    "category": "Fitness"
+  },
+  {
+    "name": "Urban Chef",
+    "handle": "@UrbanChefLife",
+    "followers_count": 540000,
+    "description": "Cooking in the heart of the city.",
+    "category": "Cooking"
+  },
+  {
+    "name": "History Chronicles",
+    "handle": "@HistoryChronicles",
+    "followers_count": 370000,
+    "description": "Diving deep into historical events.",
+    "category": "History"
+  },
+  {
+    "name": "Eco Warrior",
+    "handle": "@EcoWarrior2023",
+    "followers_count": 620000,
+    "description": "Saving the planet, one step at a time.",
+    "category": "Environment"
+  },
+  {
+    "name": "Film Buff",
+    "handle": "@FilmBuff2023",
+    "followers_count": 320000,
+    "description": "All about movies and entertainment.",
+    "category": "Entertainment"
+  },
+  {
+    "name": "Urban Adventurer",
+    "handle": "@UrbanAdventurer",
+    "followers_count": 360000,
+    "description": "Exploring city life and culture.",
+    "category": "Travel"
+  }
+]

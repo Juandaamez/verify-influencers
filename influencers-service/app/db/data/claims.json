@@ -1,0 +1,225 @@
+[
+  {
+    "claim_text": "Drinking 2 liters of water daily improves skin health.",
+    "status": "Verified",
+    "confidence_score": 95,
+    "influencer_id": 1
+  },
+  {
+    "claim_text": "Eating garlic cures the common cold.",
+    "status": "Debunked",
+    "confidence_score": 20,
+    "influencer_id": 2
+  },
+  {
+    "claim_text": "Yoga reduces stress levels significantly.",
+    "status": "Verified",
+    "confidence_score": 90,
+    "influencer_id": 1
+  },
+  {
+    "claim_text": "Drinking green tea boosts metabolism.",
+    "status": "Partially Verified",
+    "confidence_score": 75,
+    "influencer_id": 3
+  },
+  {
+    "claim_text": "Vitamin C prevents all kinds of illnesses.",
+    "status": "Debunked",
+    "confidence_score": 30,
+    "influencer_id": 2
+  },
+
+  {
+    "claim_text": "Eating dark chocolate daily can improve brain function.",
+    "confidence_score": 85,
+    "date": "2025-01-01",
+    "influencer_id": 1
+  },
+  {
+    "claim_text": "Drinking green tea reduces the risk of heart disease.",
+    "confidence_score": 90,
+    "date": "2025-01-02",
+    "influencer_id": 2
+  },
+  {
+    "claim_text": "Waking up early boosts productivity and mental health.",
+    "confidence_score": 70,
+    "date": "2025-01-03",
+    "influencer_id": 3
+  },
+  {
+    "claim_text": "Using turmeric in food reduces inflammation in the body.",
+    "confidence_score": 80,
+    "date": "2025-01-04",
+    "influencer_id": 4
+  },
+  {
+    "claim_text": "Daily yoga can significantly lower stress levels.",
+    "confidence_score": 95,
+    "date": "2025-01-05",
+    "influencer_id": 5
+  },
+  {
+    "claim_text": "Meditating for 10 minutes daily improves focus.",
+    "confidence_score": 88,
+    "date": "2025-01-06",
+    "influencer_id": 6
+  },
+  {
+    "claim_text": "Reading books enhances emotional intelligence.",
+    "confidence_score": 77,
+    "date": "2025-01-07",
+    "influencer_id": 7
+  },
+  {
+    "claim_text": "Switching to renewable energy reduces carbon footprint.",
+    "confidence_score": 93,
+    "date": "2025-01-08",
+    "influencer_id": 8
+  },
+  {
+    "claim_text": "Drinking lemon water in the morning aids digestion.",
+    "confidence_score": 85,
+    "date": "2025-01-09",
+    "influencer_id": 9
+  },
+  {
+    "claim_text": "Listening to music while working boosts creativity.",
+    "confidence_score": 82,
+    "date": "2025-01-10",
+    "influencer_id": 10
+  },
+  {
+    "claim_text": "Traveling enhances personal growth and perspective.",
+    "confidence_score": 90,
+    "date": "2025-01-11",
+    "influencer_id": 11
+  },
+  {
+    "claim_text": "Coding can improve problem-solving skills.",
+    "confidence_score": 88,
+    "date": "2025-01-12",
+    "influencer_id": 12
+  },
+  {
+    "claim_text": "Using AI tools simplifies complex tasks.",
+    "confidence_score": 92,
+    "date": "2025-01-13",
+    "influencer_id": 13
+  },
+  {
+    "claim_text": "Spending time in nature reduces anxiety.",
+    "confidence_score": 87,
+    "date": "2025-01-14",
+    "influencer_id": 14
+  },
+  {
+    "claim_text": "Including nuts in your diet improves heart health.",
+    "confidence_score": 89,
+    "date": "2025-01-15",
+    "influencer_id": 15
+  },
+  {
+    "claim_text": "Minimalism leads to a stress-free life.",
+    "confidence_score": 76,
+    "date": "2025-01-16",
+    "influencer_id": 16
+  },
+  {
+    "claim_text": "Solar panels can cut electricity costs by half.",
+    "confidence_score": 91,
+    "date": "2025-01-17",
+    "influencer_id": 17
+  },
+  {
+    "claim_text": "Consuming probiotics improves gut health.",
+    "confidence_score": 83,
+    "date": "2025-01-18",
+    "influencer_id": 18
+  },
+  {
+    "claim_text": "Drinking more water boosts skin hydration.",
+    "confidence_score": 88,
+    "date": "2025-01-19",
+    "influencer_id": 19
+  },
+  {
+    "claim_text": "Cycling to work improves overall fitness.",
+    "confidence_score": 89,
+    "date": "2025-01-20",
+    "influencer_id": 20
+  },
+  {
+    "claim_text": "Eating more vegetables extends lifespan.",
+    "confidence_score": 85,
+    "date": "2025-01-21",
+    "influencer_id": 21
+  },
+  {
+    "claim_text": "Reducing screen time improves sleep quality.",
+    "confidence_score": 84,
+    "date": "2025-01-22",
+    "influencer_id": 22
+  },
+  {
+    "claim_text": "Learning a new language enhances memory.",
+    "confidence_score": 86,
+    "date": "2025-01-23",
+    "influencer_id": 23
+  },
+  {
+    "claim_text": "Eating avocados helps in weight management.",
+    "confidence_score": 78,
+    "date": "2025-01-24",
+    "influencer_id": 24
+  },
+  {
+    "claim_text": "Drinking coffee can reduce the risk of Parkinson's disease.",
+    "confidence_score": 89,
+    "date": "2025-01-25",
+    "influencer_id": 25
+  },
+  {
+    "claim_text": "Walking daily boosts cardiovascular health.",
+    "confidence_score": 90,
+    "date": "2025-01-26",
+    "influencer_id": 26
+  },
+  {
+    "claim_text": "Plant-based diets can lower cholesterol levels.",
+    "confidence_score": 93,
+    "date": "2025-01-27",
+    "influencer_id": 27
+  },
+  {
+    "claim_text": "Cooking at home improves diet quality.",
+    "confidence_score": 87,
+    "date": "2025-01-28",
+    "influencer_id": 28
+  },
+  {
+    "claim_text": "Practicing gratitude enhances mental health.",
+    "confidence_score": 88,
+    "date": "2025-01-29",
+    "influencer_id": 29
+  },
+  {
+    "claim_text": "Playing video games can improve hand-eye coordination.",
+    "confidence_score": 75,
+    "date": "2025-01-30",
+    "influencer_id": 30
+  },
+  {
+    "claim_text": "Breathing exercises can reduce panic attacks.",
+    "confidence_score": 91,
+    "date": "2025-01-31",
+    "influencer_id": 31
+  },
+  {
+    "claim_text": "Mediterranean diets promote longevity.",
+    "confidence_score": 93,
+    "date": "2025-02-01",
+    "influencer_id": 32
+  }
+]
