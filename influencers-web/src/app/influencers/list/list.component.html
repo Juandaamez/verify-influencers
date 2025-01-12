@@ -1,0 +1,51 @@
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6 text-center">
+    <div class="bg-gradient-to-r from-blue-500 to-indigo-500 text-white p-6 rounded-lg shadow-md">
+      <h3 class="text-4xl font-extrabold">
+        {{ statistics.active_influencers || 0 }}
+      </h3>
+      <p class="mt-2 text-lg font-medium">Active Influencers</p>
+    </div>
+    <div class="bg-gradient-to-r from-green-400 to-teal-500 text-white p-6 rounded-lg shadow-md">
+      <h3 class="text-4xl font-extrabold">
+        {{ statistics.claims_verified || 0 }}
+      </h3>
+      <p class="mt-2 text-lg font-medium">Claims Verified</p>
+    </div>
+    <div class="bg-gradient-to-r from-yellow-400 to-orange-500 text-white p-6 rounded-lg shadow-md">
+      <h3 class="text-4xl font-extrabold">
+        {{ (statistics.average_trust_score || 0) | number: '1.1-2' }}%
+      </h3>
+      <p class="mt-2 text-lg font-medium">Average Trust Score</p>
+    </div>
+  </div>
+  
+  <h2 class="text-3xl font-bold mb-6 text-center">Leaderboard</h2>
+  <table class="min-w-full bg-white border border-gray-300 shadow-lg">
+    <thead class="bg-gradient-to-r from-purple-500 to-pink-500 text-white">
+      <tr>
+        <th class="py-4 px-6 border-b text-center">Rank</th>
+        <th class="py-4 px-6 border-b text-center">Name</th>
+        <th class="py-4 px-6 border-b text-center">Category</th>
+        <th class="py-4 px-6 border-b text-center">Followers</th>
+        <th class="py-4 px-6 border-b text-center">Trust Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        *ngFor="let influencer of influencers; let i = index"
+        (click)="navigateToDetails(influencer.id)"
+        class="hover:bg-blue-50 transition cursor-pointer"
+      >
+        <td class="py-4 px-6 border-b text-center">{{ i + 1 }}</td>
+        <td class="py-4 px-6 border-b text-center">{{ influencer.name }}</td>
+        <td class="py-4 px-6 border-b text-center">{{ influencer.category }}</td>
+        <td class="py-4 px-6 border-b text-center">
+          {{ influencer.followers_count | formatFollowers }}
+        </td>
+        <td class="py-4 px-6 border-b text-center">
+          {{ influencer.average_score | number: '1.1-2' }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  

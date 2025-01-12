@@ -1,0 +1,55 @@
+<div class="container mx-auto p-4">
+
+  <h1 class="text-2xl font-bold mb-4">Search Influencer</h1>
+  <div class="flex items-center space-x-4 mb-6">
+    <input
+      type="text"
+      [(ngModel)]="searchQuery"
+      placeholder="Enter influencer name"
+      class="border border-gray-300 p-2 rounded-md flex-1"
+    />
+    <button
+      (click)="searchInfluencer()"
+      class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+    >
+      Search
+    </button>
+  </div>
+
+
+  <div
+    *ngIf="showModal"
+    class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center"
+  >
+    <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+      <h2 class="text-lg font-bold mb-4">
+        Influencer found and added to the database!
+      </h2>
+      <p>You can find it on the leaderboard.</p>
+      <button
+        (click)="closeModal()"
+        class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+      >
+        Close
+      </button>
+    </div>
+  </div>
+
+
+  <div *ngIf="influencer" class="bg-gray-100 p-4 rounded-lg shadow-md mt-6">
+    <h2 class="text-xl font-bold mb-2">Results:</h2>
+    <p><strong>Name:</strong> {{ influencer.name }}</p>
+    <p><strong>Handle:</strong> {{ influencer.handle }}</p>
+    <p><strong>Description:</strong> {{ influencer.description }}</p>
+    <p><strong>Followers:</strong> {{ influencer.followers_count }}</p>
+    <p><strong>Category:</strong> {{ influencer.category }}</p>
+
+    <!-- Reclamos del influencer -->
+    <div *ngIf="claims.length > 0" class="mt-4">
+      <h3 class="font-bold">Claims:</h3>
+      <ul class="list-disc list-inside">
+        <li *ngFor="let claim of claims">{{ claim.content }}</li>
+      </ul>
+    </div>
+  </div>
+</div>

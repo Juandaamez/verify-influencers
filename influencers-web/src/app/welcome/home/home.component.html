@@ -1,0 +1,60 @@
+<div class="relative w-full h-screen flex items-center justify-center overflow-hidden">
+    <div 
+      class="absolute top-0 left-0 w-full h-full 
+             bg-gradient-to-r from-purple-900 via-blue-700 to-blue-400
+             bg-[length:250%_250%] 
+             animate-gradient-move 
+             -z-10">
+    </div>
+  
+    <!-- Glass card -->
+    <div 
+      class="relative bg-white/20 backdrop-blur-xl 
+             max-w-xl w-11/12 
+             py-10 px-6 
+             rounded-3xl shadow-xl text-white text-center"
+    >
+      <div class="flex items-center justify-center gap-2 mb-6">
+        <svg
+          class="w-12 h-12 text-white"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 48 48"
+        >
+          <path
+            fill="currentColor"
+            d="M24 4l-14 6v9c0 9.6 6.1 18.4 14 21 7.9-2.6 14-11.4 14-21v-9l-14-6z
+               M31.3 18.3l-7.6 7.7c-.4.4-1 .4-1.4 0l-3.2-3.2c-.6-.6-.6-1.5 0-2.1.6-.6 1.5-.6 2.1 0l1.8 1.8 
+               6.2-6.2c.6-.6 1.5-.6 2.1 0 .7.6.7 1.5.0 2.0z"
+          />
+        </svg>
+        <h1 class="text-3xl font-bold uppercase tracking-wide m-0">
+          Verify Influencers
+        </h1>
+      </div>
+      <p class="text-lg font-light max-w-lg mx-auto mb-8">
+        Health-Influencers verify platform.
+      </p>
+  
+      <div class="flex flex-wrap gap-4 justify-center">
+        <button
+          class="rounded-full py-2 px-6 text-lg font-semibold text-white
+                 bg-gradient-to-r from-pink-600 to-purple-600 
+                 shadow-lg hover:scale-105 transform transition 
+                 focus:outline-none"
+          (click)="goToLogin()"
+        >
+          Login
+        </button>
+        <button
+          class="rounded-full py-2 px-6 text-lg font-semibold 
+                 bg-gradient-to-r from-green-500 to-teal-400 
+                 shadow-lg hover:scale-105 transform transition 
+                 focus:outline-none"
+          (click)="goToSignUp()"
+        >
+          Sign Up
+        </button>
+      </div>
+    </div>
+  </div>
+  
